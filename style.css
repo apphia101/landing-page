@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+img {
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+
+.intro, footer {
+    background-color: #1F2937;
+}
+
+button, .action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+
+/* intro styles */
+
+.header, .hero {
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 5px;
+}
+
+a, .sec {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.hero .image {
+    flex: 1;
+    padding: 100px;
+}
+
+.main .sec {
+    text-align: left;
+}
+
+    /* a. header styles */
+
+.header {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    /* b. hero styles */
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main {
+    font-weight: bolder;
+    font-size: 48px;
+    padding-top: 100px;
+    color: #F9FAF8;
+}
+
+.sec {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.sign {
+    border: 0;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+
+
+/* info styles */
+
+.info {
+    text-align: center;
+    padding: 60px 100px;
+}
+
+.title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin: 50px 0;
+}
+
+.text {
+    padding: 5px 50px;
+}
+
+/* quote styles */
+
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 300px;
+}
+
+.say {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h6 {
+    font-size: 16px;
+    text-align: right;
+}
+
+/* action styles */
+
+.action {
+    margin: 100px 300px;
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup {
+    border-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 16px;
+    padding: 8px 10px;
+}
+
+h3 {
+    margin: -1px 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* footer styles */
+
+footer {
+    padding: 40px;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: lighter;
+}
